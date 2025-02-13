@@ -211,3 +211,38 @@ span.user-name:last-child:after {
 .exp-15-page1-content {
   padding: 20px;
 }
+
+.user-list {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.user-list button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.user-list button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.user-list ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.user-list li {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  font-size: 16px;
+}

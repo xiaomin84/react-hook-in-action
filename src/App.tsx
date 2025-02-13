@@ -1,4 +1,5 @@
 import Counter from './01/Counter'  
+import UserList from './01/UserList'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
@@ -6,6 +7,7 @@ import './App.css'
 
 const routes: [string, React.ComponentType][] = [
   ["01 Counter", Counter],
+  ["02 User List", UserList],
 ]
 
 function App() {
